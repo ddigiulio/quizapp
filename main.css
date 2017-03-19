@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+.nextQuestion{
+  margin: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#shopping-list-item {
+  width: 250px;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+.answers {
+  margin-top: 30px;
+  
+}
+
+H1 { text-align: center }
+
+.myQuiz {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.shopping-item {
+  display: block;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.hidden{
+  display:none;
+}
